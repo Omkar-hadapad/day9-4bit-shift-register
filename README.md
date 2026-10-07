@@ -1,66 +1,35 @@
-# Day 9 --- 4-bit Shift Register: Asynchronous vs Synchronous Reset
+# Day 9 — 4-Bit Shift Register
 
-```{=html}
 <p align="center">
-```
-`<b>`{=html}Digital VLSI • Verilog RTL • Sequential Logic • Functional
-Verification • Cadence Genus`</b>`{=html}
-```{=html}
+  <b>Digital VLSI • Verilog RTL • Sequential Logic • Functional Verification • Cadence Genus</b>
 </p>
-```
-```{=html}
+
 <p align="center">
-```
-`<code>`{=html}Specification → Architecture → RTL → Simulation →
-Synthesis → Technology Mapping → Timing → Power → PPA`</code>`{=html}
-```{=html}
+  <code>Specification → RTL → Simulation → Verification → Synthesis → Timing → Power → PPA</code>
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-# 1. Project Information
+## 1. Project Information
 
-  -----------------------------------------------------------------------
-  Parameter                           Details
-  ----------------------------------- -----------------------------------
-  **Project**                         Day 9 --- 4-bit Shift Register
+| Parameter | Details |
+|---|---|
+| Project | Day 9 — 4-Bit Shift Register |
+| Domain | Digital VLSI / RTL Design |
+| Design Type | Sequential Logic |
+| HDL | Verilog HDL |
+| Technology | TSMC 180 nm |
+| Library | tsmc18 |
+| Simulation Tool | Cadence NC-Sim / SimVision |
+| Synthesis Tool | Cadence Genus 21.14-s082_1 |
+| Operating Condition | slow (balanced_tree) |
+| Wireload Mode | enclosed |
+| Register Width | 4-bit |
+| Reset Types | Asynchronous Reset + Synchronous Reset |
+| Design Function | Serial-In Parallel-Out Shift Register |
 
-  **Domain**                          Digital VLSI / RTL Design
+---
 
-  **Design Type**                     Sequential Logic
-
-  **HDL**                             Verilog HDL
-
-  **Target Technology**               TSMC 180 nm
-
-  **Library**                         `tsmc18`
-
-  **Synthesis Tool**                  Cadence Genus 21.14-s082_1
-
-  **Operating Condition**             `slow (balanced_tree)`
-
-  **Wireload Mode**                   `enclosed`
-
-  **Clocking**                        Positive-edge triggered
-
-  **Reset Implementations**           Asynchronous Reset and Synchronous
-                                      Reset
-
-  **Register Width**                  4 bits
-
-  **Main Function**                   Serial-in, parallel-out 4-bit shift
-                                      register
-
-  **Analysis**                        Functional Simulation, Hierarchy,
-                                      Area, Power, Timing, PPA
-
-  **Status**                          RTL, simulation, synthesis and PPA
-                                      analysis completed with a
-                                      synchronous-reset verification gap
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
 
 # 2. Project Overview
 
@@ -1410,18 +1379,3 @@ PPA Optimization
 
 ------------------------------------------------------------------------
 
-```{=html}
-<p align="center">
-```
-`<b>`{=html}DAY 9 --- 4-BIT SHIFT REGISTER`</b>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<code>`{=html}RTL → Simulation → Synthesis → Mapping → Area → Power →
-Timing → PPA`</code>`{=html}
-```{=html}
-</p>
-```
